@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name-"viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Account page|</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7faee31bf0.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <div class="container" id="id1">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="logo" width="125px">
+            </div>
+            <nav>
+                <ul class="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    
+                </ul>
+            </nav>
+            <img src="images/cart.svg" alt="cart" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+<div class="small-container">
+    <div class="row">   
+        <div class="col1">
+            <div class="wrapper">
+                <div class="title-text">
+                    <div class="title signup">Signup form</div>
+                </div>
+                <div class="form-con">
+                    <div class="form-inner">
+                        <form action="#" class="signup">
+                            <div class="field">
+                                <input type="text" placeholder="Username">
+                            </div>
+                            <div class="field">
+                                <input type="number" placeholder="Phone No">
+                            </div>
+                            <div class="field">
+                                <input type="email" placeholder="Email Address">
+                            </div>
+                            <div class="field">
+                                <input type="password" placeholder="Password">
+                            </div>
+                            <div class="field">
+                                <input type="submit" value="Signup" class="btn">
+                            </div><br><br>
+                            <div class="signup-link">Already a Member?<a herf= "#">Login now</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col2">
+            <img src="images/mainpage.jpg" alt="image" >
+        </div>
+ </div>
+</div>
+<br>
+<br>
+<!---------footer----------->
+<div class="footer" id="id5">
+    <div class="cointainer">
+        <div class="row">
+            <div class="footercol1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and ios devices</p>
+               <div class="applogo">
+                   <img src="images/play-store.png">
+                   <img src="images/app-store.png">
+               </div>
+            </div>
+            <div class="footercol2">
+                <img src="images/footer.png">
+                <p>Our purpose is to sustainably make the<br> pleasure and benifits of daily <br>use things accessible to the many </p>
+            </div>
+            <div class="footercol3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliated</li>
+                </ul>
+            </div> 
+            <div class="footercol4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook </li>
+                    <li>Instagram </li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div> 
+        </div>
+            <hr></hr>
+            <p class="copyright">Copyright 2020 - Yashaswi Tirole</p>
+    </div>
+</div>
+<script>
+    function menutoggle(){
+        const nav = document.querySelector(".MenuItems");
+        nav.classList.toggle("active");
+    }
+</script>
+</body>
+</html>

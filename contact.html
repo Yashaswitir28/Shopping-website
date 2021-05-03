@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name-"viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Account page|</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7faee31bf0.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <div class="container" id="id1">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="logo" width="125px">
+            </div>
+            <nav>
+                <ul class="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    
+                </ul>
+            </nav>
+            <img src="images/cart.svg" alt="cart" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+
+    <div class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fuga saepe eaque modi libero quidem impedit dolorem eum suscipit voluptas?</p>
+        </div>
+        <div class="container1">
+                    <div class="contactInfo">
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>Rose villa,<br>
+                                    zigzag street,<br>
+                                khopoli-410303<br>
+                            Maharashtra.</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Customer care</h3>
+                                <p>03214-34***</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>hbvjhdfvb.urblad.in</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contactForm">
+                        <form>
+                            <h2>Send Message</h2>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required">
+                                <span>Full Name</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required">
+                                <span>Email</span>
+                            </div>
+                            <div class="inputBox">
+                                <textarea required="required"></textarea>
+                                <span>Type your message...</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" name="" value="Send">
+                            </div>
+                        </form>
+                    </div>
+            </div> 
+    </div>
+
+<!---------footer----------->
+<div class="footer" id="id5">
+    <div class="cointainer">
+        <div class="row">
+            <div class="footercol1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and ios devices</p>
+               <div class="applogo">
+                   <img src="images/play-store.png">
+                   <img src="images/app-store.png">
+               </div>
+            </div>
+            <div class="footercol2">
+                <img src="images/footer.png">
+                <p>Our purpose is to sustainably make the<br> pleasure and benifits of daily <br>use things accessible to the many </p>
+            </div>
+            <div class="footercol3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliated</li>
+                </ul>
+            </div> 
+            <div class="footercol4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook </li>
+                    <li>Instagram </li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div> 
+        </div>
+            <hr></hr>
+            <p class="copyright">Copyright 2020 - Yashaswi Tirole</p>
+    </div>
+</div>
+<script>
+    function menutoggle(){
+        const nav = document.querySelector(".MenuItems");
+        nav.classList.toggle("active");
+    }
+</script>
+</body>
+</html>
